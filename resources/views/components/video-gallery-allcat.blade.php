@@ -78,7 +78,7 @@ use App\Models\Video;
             </button>
         @endforeach --}}
     <div class="vdo_title">
-        <h2>वीडियो</h2> <a href="{{ asset('nmfvideos') }}" class="see-more-btn2">
+        <h2>वीडियो</h2> <a href="{{ asset('world91videos') }}" class="see-more-btn2">
             और देखें <i class="fa-solid fa-arrow-right"></i>
         </a>
     </div>

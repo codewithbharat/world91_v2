@@ -23,7 +23,7 @@ License: For each use you must have a valid license purchased only from above li
       exit();
     }
   ?>
-  <title>NMF - Laravel Admin Dashboard</title>
+  <title>world91 - Laravel Admin Dashboard</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

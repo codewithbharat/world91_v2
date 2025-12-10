@@ -31,7 +31,7 @@ $liveBlogs = Cache::remember('breaking_news_amp', now()->addHour(), function () 
                     $blogTime = $blog->created_at->format('g:i A');
                     $todayEng = str_replace(' ', '-', date('jS F Y'));
                     $short = $blog->short_title ?: $blog->name;
-                    $url = url('/breakingnews/latest-breaking-news-in-hindi-nmfnews-' . $todayEng);
+                    $url = url('/breakingnews/latest-breaking-news-in-hindi-world91news-' . $todayEng);
                 @endphp
 
                 <li class="js_article">

@@ -125,8 +125,8 @@ Route::post('/comments/{id}/like', [CommentController::class, 'toggleLike'])->na
 
 Route::get('/', [HomeController::class, 'homePage'])->name('homePage');
 
-Route::get('/backend-login-nmfteam', [LoginController::class, 'showLoginForm'])->name('custom.login');
-Route::post('/backend-login-nmfteam', [LoginController::class, 'login'])->name('custom.login.submit');
+Route::get('/backend-login-world91team', [LoginController::class, 'showLoginForm'])->name('custom.login');
+Route::post('/backend-login-world91team', [LoginController::class, 'login'])->name('custom.login.submit');
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 // NL1020:12Sep2025:Added:Start:After login
 // add a login alias so auth middleware works
@@ -485,8 +485,8 @@ Route::get('/contact', [StoryController::class, 'contact'])->name('contact');
 Route::get('/breakingnews/{slug}', [StoryController::class, 'breakingNews'])->name('breakingNews');
 Route::get('/videos', [StoryController::class, 'videos'])->name('videos');
 Route::get('/videos/{cat_name}', [StoryController::class, 'videosCategory'])->name('videosCategory');
-Route::get('/nmfvideos', [StoryController::class, 'nmfvideos'])->name('nmfvideos');
-Route::get('/nmfvideos/{cat_name}', [StoryController::class, 'nmfvideosCategory'])->name('nmfvideosCategory');
+Route::get('/world91videos', [StoryController::class, 'world91videos'])->name('world91videos');
+Route::get('/world91videos/{cat_name}', [StoryController::class, 'world91videosCategory'])->name('world91videosCategory');
 
 Route::get('/event/video/{cat_name}/{name}', [BigEventController::class, 'showEventVideo'])->name('showEventVideo');
 Route::get('/event/{cat_name}/{name}', [BigEventController::class, 'showEventStory'])->name('showEventStory');

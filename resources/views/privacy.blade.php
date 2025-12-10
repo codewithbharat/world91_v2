@@ -10,7 +10,7 @@
                             
                             <h5>Privacy Policy</h5>
                             <p>
-                            This Privacy Policy outlines how NMF News collects, uses, and protects personal information
+                            This Privacy Policy outlines how World 91 collects, uses, and protects personal information
                             collected from users. We take your privacy very seriously and are committed to safeguarding your
                             personal information.
                             </p>

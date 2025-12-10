@@ -78,7 +78,7 @@
                                         <!-- <img src="{{ $item['image'] }}" alt="{{ $item['title'] }}" loading="lazy"> -->
 
                                         <img 
-                                            src="/file/Image/nmf-logo-full.webp" 
+                                            src="/file/Image/world91-logo-full.webp" 
                                             data-src="{{ $item['image'] }}" 
                                             alt="{{ $item['title'] }}" 
                                             class="lazy-image"
@@ -119,7 +119,7 @@
                     <a class="--ct_img" href="{{ $item['url'] }}">
                        <!--  <img src="{{ $item['image'] }}" alt="{{ $item['title'] }}" loading="lazy"> -->
                           <img 
-                                            src="/file/Image/nmf-logo-full.webp" 
+                                            src="/file/Image/world91-logo-full.webp" 
                                             data-src="{{ $item['image'] }}" 
                                             alt="{{ $item['title'] }}" 
                                             class="lazy-image"

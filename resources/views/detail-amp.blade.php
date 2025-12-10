@@ -5,7 +5,7 @@
     @php
         $ff = config('global.blog_images_everywhere')($data['blog'] ?? null);
         $imageToUse = asset($ff);
-        $customImageUrl = asset('asset/images/NMF_BreakingNews.png');
+        $customImageUrl = asset('asset/images/world91_BreakingNews.png');
     @endphp
     @php
         $canonicalUrl = str_replace('/amp', '/', url()->current());
@@ -681,13 +681,13 @@
             border: none;
         }
 
-        .--nmf-logo-amp {
+        .--world91-logo-amp {
             width: 44px;
             height: 44px;
             overflow: hidden;
         }
 
-        .--nmf-logo-amp img {
+        .--world91-logo-amp img {
             width: 100%;
             height: auto;
             object-fit: cover;
@@ -1530,11 +1530,11 @@
         ],
         "author": {
             "@type": "Person",
-            "name": {!! json_encode($data['author']->name ?? 'NMF News') !!}
+            "name": {!! json_encode($data['author']->name ?? 'World 91') !!}
         },
         "publisher": {
             "@type": "Organization",
-            "name": "NMF News",
+            "name": "World 91",
             "logo": {
                 "@type": "ImageObject",
                 "url": "{{ asset('/frontend/images/logo.png') }}"
@@ -1565,10 +1565,10 @@
                             : (str_contains($data['blog']->link, '.mp4') ? $data['blog']->link : null),
             "publisher" => [
                 "@type" => "Organization",
-                "name" => "NMF News",
+                "name" => "World 91",
                 "logo" => [
                     "@type" => "ImageObject",
-                    "url" => "https://newsnmf.com/frontend/images/logo.png",
+                    "url" => "https://world91.com/frontend/images/logo.png",
                     "width" => 300,
                     "height" => 60,
                 ]
@@ -1697,7 +1697,7 @@
                         <span>Created By:</span>
                         <a class="l1"
                             href="{{ asset('/author') }}/{{ str_replace(' ', '_', $data['author']->url_name ?? '-') }}">
-                            {{ $data['author']->name ?? 'NMF News' }}
+                            {{ $data['author']->name ?? 'World 91' }}
                         </a>
                     </div>
 
@@ -1819,7 +1819,7 @@
                     <div class="flw_wrap">
                         <h6>Follow Us: </h6>
                         <div class="follow_us_socials">
-                            <a href="https://www.facebook.com/officialnmfnews" target="_blank" rel="noopener"
+                            <a href="https://www.facebook.com/officialworld91news" target="_blank" rel="noopener"
                                 title="Facebook" class="socials-item">
                                 <!-- Facebook SVG -->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1829,7 +1829,7 @@
                                 </svg>
                             </a>
 
-                            <a href="https://x.com/NMFNewsOfficial" target="_blank" rel="noopener" title="Twitter"
+                            <a href="https://x.com/world91NewsOfficial" target="_blank" rel="noopener" title="Twitter"
                                 class="socials-item">
                                 <!-- Twitter/X SVG -->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1839,7 +1839,7 @@
                                 </svg>
                             </a>
 
-                            <a href="https://instagram.com/nmfnewsofficial" target="_blank" rel="noopener"
+                            <a href="https://instagram.com/world91newsofficial" target="_blank" rel="noopener"
                                 title="Instagram" class="socials-item">
                                 <!-- Instagram SVG -->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1849,7 +1849,7 @@
                                 </svg>
                             </a>
 
-                            <a href="https://www.youtube.com/c/NMFNews/featured" target="_blank" rel="noopener"
+                            <a href="https://www.youtube.com/c/world91News/featured" target="_blank" rel="noopener"
                                 title="YouTube" class="socials-item">
                                 <!-- YouTube SVG -->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"

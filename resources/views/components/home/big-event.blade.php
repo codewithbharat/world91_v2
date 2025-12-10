@@ -53,8 +53,8 @@ linear infinite;
 
 @if ($bigEvent)
     @php
-        if (!function_exists('nmf_get_video_info')) {
-            function nmf_get_video_info($url)
+        if (!function_exists('world91_get_video_info')) {
+            function world91_get_video_info($url)
             {
                 if (!$url) return null;
 
@@ -80,7 +80,7 @@ linear infinite;
                     $video['type'] = 'direct';
                     $video['id'] = $url;
                 } 
-		elseif (preg_match('/newsnmf\.com\/video\//', $url)) {
+		elseif (preg_match('/world91\.com\/video\//', $url)) {
 		    $video['type'] = 'internal';
 		    $video['id'] = $url;
 		}
@@ -89,7 +89,7 @@ linear infinite;
             }
         }
 
-        $videoInfo = isset($bigEvent->video_url) ? nmf_get_video_info($bigEvent->video_url) : null;
+        $videoInfo = isset($bigEvent->video_url) ? world91_get_video_info($bigEvent->video_url) : null;
 
      	
 

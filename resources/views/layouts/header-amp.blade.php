@@ -4,9 +4,9 @@
         <div class="cm-container">
             <div class="--header-container">
                 <div class="--header-left">
-                    <a href="/" class="--nmf-logo-amp">
+                    <a href="/" class="--world91-logo-amp">
                         {{-- <img src="{{ asset('/frontend/images/logo.png') }}" alt="Logo" class="--logo" /> --}}
-                        <img src="https://www.newsnmf.com/frontend/images/logo.png" alt="Logo" class="--logo" />
+                        <img src="https://www.world91.com/frontend/images/logo.png" alt="Logo" class="--logo" />
                     </a>
                 </div>
                 <div class="--header-right">
@@ -42,8 +42,8 @@
                                     </button>
                                     <a href="/" class="modal_logo">
                                         <!-- CONVERSION TO AMP: Img tag replaced with amp-img, width and height are mandatory -->
-                                        <amp-img src="https://www.newsnmf.com/frontend/images/logo.png"
-                                            alt="NMF News Logo" width="50" height="48" layout="fixed"></amp-img>
+                                        <amp-img src="https://www.world91.com/frontend/images/logo.png"
+                                            alt="World 91 Logo" width="50" height="48" layout="fixed"></amp-img>
                                     </a>
                                     <span class="Headertag" style="margin-left: 0px">
                                         <span style="color: #333;">जिस पर देश</span>

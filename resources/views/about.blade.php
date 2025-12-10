@@ -25,13 +25,13 @@
             <h2>About us</h2>
 
             <div class="about-img">
-                <img class="d-none d-md-block " src="https://www.newsnmf.com/file/banner/about.webp" alt="About Us" class="img-fluid">
-                <img class="d-block d-md-none " src="https://www.newsnmf.com/file/banner/aboutm.jpg" alt="About Us" class="img-fluid">
+                <img class="d-none d-md-block " src="https://www.world91.com/file/banner/about.webp" alt="About Us" class="img-fluid">
+                <img class="d-block d-md-none " src="https://www.world91.com/file/banner/aboutm.jpg" alt="About Us" class="img-fluid">
             </div>
 
             <div class="about-content">
-                <strong class="abt_h">NMF NEWS: Unveiling the Truth Behind the Headlines</strong>
-                <p class="abt_p">NMF NEWS breaks the mould of conventional news reporting by providing in-depth analysis
+                <strong class="abt_h">World 91: Unveiling the Truth Behind the Headlines</strong>
+                <p class="abt_p">World 91 breaks the mould of conventional news reporting by providing in-depth analysis
                     and the "real face" of every story, all accessible with a single click. Dive into the latest news across
                     India and the globe, encompassing politics, business, technology, entertainment, sports, science, and
                     more. We offer a comprehensive perspective on the world around you, ensuring that every angle is
@@ -39,7 +39,7 @@
 
                     Our team of expert journalists and analysts work tirelessly to bring you not just the headlines, but the
                     context and implications behind them. Whether it's breaking news or long-form features, we go beyond the
-                    surface to offer insights that matter. With NMF NEWS, you can stay informed with a deeper understanding
+                    surface to offer insights that matter. With World 91, you can stay informed with a deeper understanding
                     of the issues that shape our world.
 
                     In addition to traditional news coverage, we offer specialized segments on emerging trends,
@@ -52,7 +52,7 @@
                     together to create an informed and empowered audience.</p>
 
                 <strong class="abt_h">Personalized Content, Trusted Source</strong>
-                <p class="abt_p">Our content is personalized to your interests, ensuring you receive the news that matters most to you. NMF NEWS is a copyright-protected platform, meticulously curated by Khetan Media Creation Pvt Ltd.</p>    
+                <p class="abt_p">Our content is personalized to your interests, ensuring you receive the news that matters most to you. World 91 is a copyright-protected platform, meticulously curated by Khetan Media Creation Pvt Ltd.</p>    
 
                 <strong class="abt_h">Driven by Passion and Expertise</strong>
                 <p class="abt_p">Founded in 2015 by Parmanand Khetan, a visionary entrepreneur with a deep understanding of the media landscape, Khetan Media Creations is driven by a relentless pursuit of excellence. We invite you to explore our world of creative content, meticulously crafted by our dedicated team.</p>
@@ -70,10 +70,10 @@
                             <div class="cm_post_page_lay_wrap" style="transform: none; margin-top:20px;">
                             
                             <h5>About Us</h5>
-                            <h5>NMF NEWS: Unveiling the Truth Behind the Headlines</h5>
-                            <p style="font-weight: 300;">NMF NEWS breaks the mould of conventional news reporting by providing in-depth analysis and the "real face" of every story, all accessible with a single click. Dive into the latest news across India and the globe, encompassing politics, business, technology, entertainment, sports, science, and more. We offer a comprehensive perspective on the world around you.</p>
+                            <h5>World 91: Unveiling the Truth Behind the Headlines</h5>
+                            <p style="font-weight: 300;">World 91 breaks the mould of conventional news reporting by providing in-depth analysis and the "real face" of every story, all accessible with a single click. Dive into the latest news across India and the globe, encompassing politics, business, technology, entertainment, sports, science, and more. We offer a comprehensive perspective on the world around you.</p>
                             <h5>Personalized Content, Trusted Source</h5>
-                            <p style="font-weight: 300;">Our content is personalized to your interests, ensuring you receive the news that matters most to you. NMF NEWS is a copyright-protected platform, meticulously curated by Khetan Media Creation Pvt Ltd.</p>
+                            <p style="font-weight: 300;">Our content is personalized to your interests, ensuring you receive the news that matters most to you. World 91 is a copyright-protected platform, meticulously curated by Khetan Media Creation Pvt Ltd.</p>
                             <h5>Driven by Passion and Expertise</h5>
                             <p style="font-weight: 300;">Founded in 2015 by Parmanand Khetan, a visionary entrepreneur with a deep understanding of the media landscape, Khetan Media Creations is driven by a relentless pursuit of excellence. We invite you to explore our world of creative content, meticulously crafted by our dedicated team.</p>
                             <h5>Parmanand Khetan: The Guiding Force</h5>

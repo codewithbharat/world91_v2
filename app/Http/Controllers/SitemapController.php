@@ -207,7 +207,7 @@ class SitemapController extends Controller
                 'duration' => $durationInSeconds,
                 'publication_date' => ($video->published_at ?? $video->created_at)->toAtomString(),
                 'category' => $video->category->name,
-                'uploader' => 'newsnmf.com',
+                'uploader' => 'world91.com',
             ];
         }
 
@@ -233,13 +233,13 @@ class SitemapController extends Controller
             $durationInSeconds = $this->parseDurationToSeconds($clip->duration);
 
             // 1. Get the raw paths from DB
-            // Example DB Value: /var/www/html/newsnmf.com/public/file/shortvideos/clip.mp4
+            // Example DB Value: /var/www/html/world91.com/public/file/shortvideos/clip.mp4
             $rawVideoPath = rtrim($clip->video_path, '/') . '/' . $clip->clip_file_name;
             $rawThumbPath = $clip->thumb_image;
 
             // 2. CLEAN THE PATHS
             // This splits the string at "/public/" and takes the part AFTER it.
-            // Input: /var/www/html/newsnmf.com/public/file/shortvideos...
+            // Input: /var/www/html/world91.com/public/file/shortvideos...
             // Output: file/shortvideos...
             $cleanVideoPath = $this->stripServerPath($rawVideoPath);
             $cleanThumbPath = $this->stripServerPath($rawThumbPath);
@@ -262,7 +262,7 @@ class SitemapController extends Controller
                 'duration' => $durationInSeconds,
                 'publication_date' => $clip->created_at->toAtomString(),
                 'category' => $clip->category->name,
-                'uploader' => "newsnmf.com"
+                'uploader' => "world91.com"
             ];
         }
 

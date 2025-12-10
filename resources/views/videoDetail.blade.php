@@ -89,13 +89,13 @@
                                                     <div class="at_left">
                                                         <div class="auth-box">
                                                             <img class="auth-img" width="40" height="40"
-                                                                src="{{config('global.base_url_asset')}}asset/images/nmf-author.webp" loading="lazy"
-                                                                alt="nmf-author">
+                                                                src="{{config('global.base_url_asset')}}asset/images/world91-author.webp" loading="lazy"
+                                                                alt="world91-author">
                                                             <div class="info-area">
                                                                 <div class="editedby">
                                                                     <a
                                                                         href="{{ url('/author/' . str_replace(' ', '_', $video->author->url_name ?? '-')) }}">
-                                                                        {{ $video->author->name ?? 'NMF News' }}
+                                                                        {{ $video->author->name ?? 'World 91' }}
                                                                     </a>
                                                                 </div>
                                                                 <div class="info-inner">
@@ -132,7 +132,7 @@
                                                     <div class="at_right">
                                                         @php
                                                             $videoUrl =
-                                                                'https://www.newsnmf.com/video/' .
+                                                                'https://www.world91.com/video/' .
                                                                 ($video->category->site_url ?? '-') .
                                                                 '/' .
                                                                 $video->site_url;

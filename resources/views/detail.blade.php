@@ -7,7 +7,7 @@
     //$ff = config('global.blog_images_everywhere')($data['blog'] ?? null);
     $ff = cached_blog_image($data['blog']);
     $imageToUse = $ff;
-    $customImageUrl = "{{config('global.base_url_asset')}}asset/images/NMF_BreakingNews.png";
+    $customImageUrl = "{{config('global.base_url_asset')}}asset/images/world91_BreakingNews.png";
     ?>
     <script type="application/ld+json">
         {
@@ -25,11 +25,11 @@
             ],
             "author": {
                 "@type": "Person",
-                "name": {!! json_encode($data['author']->name ?? 'NMF News') !!}
+                "name": {!! json_encode($data['author']->name ?? 'World 91') !!}
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "NMF News",
+                "name": "World 91",
                "logo": {
                     "@type": "ImageObject",
                     "url": "{{config('global.base_url_frontend')}}frontend/images/logo.png"
@@ -59,7 +59,7 @@
                         : (str_contains($data['blog']->link, '.mp4') ? $data['blog']->link : null),
         "publisher" => [
             "@type" => "Organization",
-            "name" => "NMF News",
+            "name" => "World 91",
             "logo" => [
                 "@type" => "ImageObject",
                 "url" => config('global.base_url_frontend') . "frontend/images/logo.png",
@@ -160,11 +160,11 @@
                                                     <div class="at_left">
                                                         <div class="auth-box">
                                                             <img class="auth-img" width="40" height="40"
-                                                                src="{{config('global.base_url_asset')}}asset/images/nmf-author.webp" loading="lazy"
-                                                                alt="nmf-author">
+                                                                src="{{config('global.base_url_asset')}}asset/images/world91-author.webp" loading="lazy"
+                                                                alt="world91-author">
                                                             <div class="info-area">
                                                                 <div class="editedby"> <a
-                                                                        href="{{ asset('/author') }}/{{ str_replace(' ', '_', isset($data['author']->url_name) ? $data['author']->url_name : '-') }}">{{ isset($data['author']->name) ? $data['author']->name : 'NMF News' }}</a>
+                                                                        href="{{ asset('/author') }}/{{ str_replace(' ', '_', isset($data['author']->url_name) ? $data['author']->url_name : '-') }}">{{ isset($data['author']->name) ? $data['author']->name : 'World 91' }}</a>
                                                                 </div>
                                                                 <div class="info-inner">
                                                                     <div class="category_tag">
@@ -330,21 +330,21 @@
                                                         <h6>Follow Us: </h6>
                                                         <div class="follow_us_icon">
                                                             <div class="follow_us_socials">
-                                                                <a href="https://www.facebook.com/NMFNewsNational/"
+                                                                <a href="https://www.facebook.com/world91NewsNational/"
                                                                     target="_blank" title="Facebook"
                                                                     class="socials-item">
                                                                     <i class="fab fa-facebook-f facebook"></i>
                                                                 </a>
-                                                                <a href="https://x.com/NMFNewsOfficial" target="_blank"
+                                                                <a href="https://x.com/world91NewsOfficial" target="_blank"
                                                                     title="Twitter" class="socials-item">
                                                                     <i class="fa-brands fa-x-twitter"></i>
                                                                 </a>
-                                                                <a href="https://instagram.com/nmfnewsofficial"
+                                                                <a href="https://instagram.com/world91newsofficial"
                                                                     target="_blank" title="Instagram"
                                                                     class="socials-item">
                                                                     <i class="fab fa-instagram instagram"></i>
                                                                 </a>
-                                                                <a href="https://www.youtube.com/c/NMFNews/featured"
+                                                                <a href="https://www.youtube.com/c/world91News/featured"
                                                                     target="_blank" title="YouTube" class="socials-item">
                                                                     <i class="fab fa-youtube youtube"></i>
                                                                 </a>

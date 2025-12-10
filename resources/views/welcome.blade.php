@@ -125,7 +125,7 @@
                         $todayEng = str_replace(' ', '-', date('jS F Y')); // e.g., 5th-May-2025
                         ?>
                         <a class="brk-link"
-                            href="{{ config('global.base_url').('breakingnews/latest-breaking-news-in-hindi-nmfnews-') }}{{ $todayEng }}">
+                            href="{{ config('global.base_url').('breakingnews/latest-breaking-news-in-hindi-world91news-') }}{{ $todayEng }}">
                             {{ $blogname }}
                         </a>
                     </div>
@@ -265,7 +265,7 @@
             <h2>Download Our App</h2>
             <p>Get the best experience by downloading our mobile app!</p>
             <div class="app_btn_wrap justify-content-center">
-                <a href="https://www.newsnmf.com/nmfapps/" class="playstore-button">
+                <a href="https://www.world91.com/world91apps/" class="playstore-button">
                     
                     <span class="texts">
                         <span class="text-2">

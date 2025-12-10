@@ -259,7 +259,7 @@ async function checkAppInstalledModernAPI() {
             // Check if our specific app is installed
             const appInstalled = relatedApps.find(app => 
                 app.platform === 'play' && 
-                (app.id === 'com.kmcliv.nmfnews' || app.url?.includes('com.kmcliv.nmfnews'))
+                (app.id === 'com.kmcliv.world91news' || app.url?.includes('com.kmcliv.world91news'))
             );
             
             if (appInstalled) {
@@ -282,7 +282,7 @@ function checkAppInstalledFallback() {
             return;
         }
 
-        const appScheme = 'nmfnews://check'; // Your app's deep link scheme
+        const appScheme = 'world91news://check'; // Your app's deep link scheme
         let appDetected = false;
         
         // Listen for page visibility changes

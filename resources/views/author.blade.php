@@ -49,7 +49,7 @@
                                         <div class="news_sub_wrap pt-0">
                                             <div class="author-card">
                                                 <div class="author-card-left">
-                                                    <img src="{{ $users->image ? asset('file/' . $users->image) : asset('asset/images/nmf-author.webp') }}"
+                                                    <img src="{{ $users->image ? asset('file/' . $users->image) : asset('asset/images/world91-author.webp') }}"
                                                         class="author-image" alt="{{ $users->name }}" width="130"
                                                         height="130">
 
@@ -77,7 +77,7 @@
                                                     <div class="author-desc">
                                                         <p>
                                                             {{ $users->description ??
-                                                                'NMF journalist with over a decade of experience covering politics, global affairs, and human interest stories. Her reporting combines in-depth analysis with a focus on storytelling that resonates with readers across platforms.' }}
+                                                                'world91 journalist with over a decade of experience covering politics, global affairs, and human interest stories. Her reporting combines in-depth analysis with a focus on storytelling that resonates with readers across platforms.' }}
                                                         </p>
                                                     </div>
                                                 </div>

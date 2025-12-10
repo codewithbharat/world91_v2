@@ -111,7 +111,7 @@
                                                             Created By:
                                                             <a
                                                                 href="{{ url('/author/' . str_replace(' ', '_', $video->author->url_name ?? '-')) }}">
-                                                                {{ $video->author->name ?? 'NMF News' }}
+                                                                {{ $video->author->name ?? 'World 91' }}
                                                             </a>
                                                         </div>
                                                         <div class="category_tag">
@@ -145,7 +145,7 @@
                                                     <div class="at_right">
                                                         @php
                                                             $videoUrl =
-                                                                'https://www.newsnmf.com/event/video/' .
+                                                                'https://www.world91.com/event/video/' .
                                                                 ($video->category->site_url ?? '-') .
                                                                 '/' .
                                                                 $video->site_url;

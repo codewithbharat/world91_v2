@@ -70,14 +70,14 @@
                                                         <h3>फेज 1</h3>
                                                         <h3>6 नवंबर - 121 सीटें</h3>
                                                     </div>
-                                                    <a class="phase-details-btn ps-btn1" href="https://stgn.newsnmf.com/bihar-election-2025-phase-1">Full Details</a>
+                                                    <a class="phase-details-btn ps-btn1" href="https://stgn.world91.com/bihar-election-2025-phase-1">Full Details</a>
                                                 </div>
                                                 <div class="phase-date">
                                                     <div class="phs-2">
                                                         <h3>फेज 2</h3>
                                                         <h3>11 नवंबर - 122 सीटें</h3>
                                                     </div>
-                                                    <a class="phase-details-btn ps-btn2" href="https://stgn.newsnmf.com/bihar-election-2025-phase-2">Full Details</a>
+                                                    <a class="phase-details-btn ps-btn2" href="https://stgn.world91.com/bihar-election-2025-phase-2">Full Details</a>
                                                 </div>
                                             </div>
                                             <div class="phase-r"><img src="{{ asset('asset/images/grahics-14nov.jpg') }}" alt="voting-date"></div>
@@ -496,9 +496,9 @@
             });
 
             // ---------------- SEMI-CIRCLE CHART FUNCTION ----------------
-            if (window.Chart && window.ChartDataLabels && !Chart._nmfDataLabelsRegistered) {
+            if (window.Chart && window.ChartDataLabels && !Chart._world91DataLabelsRegistered) {
                 Chart.register(ChartDataLabels);
-                Chart._nmfDataLabelsRegistered = true;
+                Chart._world91DataLabelsRegistered = true;
             }
 
             function createSemiCircleChart(canvasId, results, options = {}) {

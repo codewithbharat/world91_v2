@@ -10,7 +10,7 @@
                     <a href="{{ asset('/web-stories/' . $category_url . '/' . $stories->siteurl) }}" target="_blank"
                         class="story-card">
                         <div class="story_img">
-                            <img src="https://stgn.newsnmf.com/file/webstories/2025/06/tea11749708345.jpg"
+                            <img src="https://stgn.world91.com/file/webstories/2025/06/tea11749708345.jpg"
                                 alt="{{ $stories->name }}">
                             <span class="reals-icon"></span>
                         </div>

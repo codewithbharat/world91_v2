@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"
     xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>NMF News Feed</title>
-        <link>https://newsnmf.com</link>
+        <title>World 91 Feed</title>
+        <link>https://world91.com</link>
         <atom:link href="{{ url('/feed', [], true) }}" rel="self" type="application/rss+xml" />
-        <description>Latest news articles from NMF News</description>
+        <description>Latest news articles from World 91</description>
         <language>hi-IN</language>
         <pubDate>{{ now()->toRfc2822String() }}</pubDate>
         <ttl>30</ttl>
         <image>
             <url>{{ asset('frontend/images/logo.png', true) }}</url>
-            <title>NMF News Feed</title>
-            <link>https://newsnmf.com</link>
+            <title>World 91 Feed</title>
+            <link>https://world91.com</link>
         </image>
 
         @foreach ($blogs as $blog)
@@ -45,7 +45,7 @@ if (!$imageUrl && !empty($blog->thumb_images)) {
 }
 
 // 3. Author Logic
-$authorName = 'NMF News';
+$authorName = 'World 91';
                     if (!empty($blog->authorUser)) {
                         $authorName = $blog->authorUser->name;
                     } elseif (!empty($blog->author) && is_numeric($blog->author)) {

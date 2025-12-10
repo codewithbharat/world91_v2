@@ -82,7 +82,7 @@ $metaDescription = preg_replace('/\s+/', ' ', $metaDescription);
   "@graph": [
     {
       "@type": "WebSite",
-      "name": "NMF News",
+      "name": "World 91",
       "url": "{{ config('global.base_url') }}",
       "potentialAction": {
         "@type": "SearchAction",
@@ -92,7 +92,7 @@ $metaDescription = preg_replace('/\s+/', ' ', $metaDescription);
     },
     {
       "@type": "Organization",
-      "name": "NMF News",
+      "name": "World 91",
       "url": "{{ config('global.base_url') }}",
       "logo": {
         "@type": "ImageObject",
@@ -101,10 +101,10 @@ $metaDescription = preg_replace('/\s+/', ' ', $metaDescription);
         "height": 60
       },
       "sameAs": [
-        "https://www.facebook.com/NMFNewsNational",
-        "https://x.com/NMFNewsOfficial",
-        "https://www.youtube.com/c/NMFNews/featured",
-        "https://www.instagram.com/nmfnewsofficial"
+        "https://www.facebook.com/world91NewsNational",
+        "https://x.com/world91NewsOfficial",
+        "https://www.youtube.com/c/world91News/featured",
+        "https://www.instagram.com/world91newsofficial"
       ]
     }
   ]
@@ -115,13 +115,13 @@ $metaDescription = preg_replace('/\s+/', ' ', $metaDescription);
     <meta property="fb:app_id" content="3916260501994016" />
     @php
     // Get base URL from your config/global.php
-    $baseUrl = config('global.base_url'); // e.g. https://www.newsnmf.com
+    $baseUrl = config('global.base_url'); // e.g. https://www.world91.com
 
     // Parse host from that URL
-    $host = parse_url($baseUrl, PHP_URL_HOST);  // returns www.newsnmf.com
+    $host = parse_url($baseUrl, PHP_URL_HOST);  // returns www.world91.com
 
     // Strip "www." and take the first segment before "."
-    $domainOnly = explode('.', str_replace('www.', '', $host))[0]; // newsnmf
+    $domainOnly = explode('.', str_replace('www.', '', $host))[0]; // world91
 
     @endphp
     <meta property="og:site_name" content="{{ ucfirst($domainOnly) }}">
@@ -132,8 +132,8 @@ $metaDescription = preg_replace('/\s+/', ' ', $metaDescription);
     <?php
     $URL= config('global.base_url');
     $baseBreakingNewsUrl = url('/breakingnews');
-    //$customImageUrl =  asset('asset/images/NMF_BreakingNews.png');
-    $customImageUrl = config('global.base_url_image') . "asset/images/NMF_BreakingNews.png";
+    //$customImageUrl =  asset('asset/images/world91_BreakingNews.png');
+    $customImageUrl = config('global.base_url_image') . "asset/images/world91_BreakingNews.png";
    // $ff = config('global.blog_images_everywhere')($data['blog'] ?? null);
    $blog = $data['blog'] ?? null;
    $ff = cached_blog_image($blog);
@@ -151,7 +151,7 @@ $metaDescription = preg_replace('/\s+/', ' ', $metaDescription);
     ?>" />
     <meta property="og:image:type" content="image/jpeg">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@nmfnewsofficial">
+    <meta name="twitter:site" content="@world91newsofficial">
     <meta name="twitter:url" content="{{ rtrim(config('global.base_url'), '/') }}{{ request()->getPathInfo() }}" />
     <meta name="twitter:title" content="{{ $metaTitle }}"/>
     <meta name="twitter:description" content="{{ $metaDescription }}"/>
@@ -302,7 +302,7 @@ window.addEventListener('load', function () {
             <div class="cm-container">
                 <div class="--header-container">
                     <div class="--header-left">
-                        <a href="/" class="--nmf-logo">
+                        <a href="/" class="--world91-logo">
                             <!-- NL1025:20Sept:2025:Added config path -->
                             <img src="{{config('global.base_url_frontend')}}frontend/images/logo.png" alt="Logo"
                                 class="--logo" />
@@ -350,16 +350,16 @@ window.addEventListener('load', function () {
                                         </a>
                                     </div>
                                     <div class="social-wrap">
-                                        <a href="https://www.facebook.com/NMFNewsNational/" target="_blank"
+                                        <a href="https://www.facebook.com/world91NewsNational/" target="_blank"
                                             class="social-item"><span><i
                                                     class="fa-brands fa-facebook-f"></i></span></a>
-                                        <a href="https://x.com/NMFNewsOfficial" target="_blank"
+                                        <a href="https://x.com/world91NewsOfficial" target="_blank"
                                             class="social-item"><span><i class="fa-brands fa-x-twitter"></i>
                                             </span></a>
-                                        <a href="https://instagram.com/nmfnewsofficial" target="_blank"
+                                        <a href="https://instagram.com/world91newsofficial" target="_blank"
                                             class="social-item"><span><i
                                                     class="fa-brands fa-instagram"></i></span></a>
-                                        <a href="https://www.youtube.com/c/NMFNews/featured" target="_blank"
+                                        <a href="https://www.youtube.com/c/world91News/featured" target="_blank"
                                             class="social-item"><span><i class="fa-brands fa-youtube"></i></span></a>
                                         <a href="https://whatsapp.com/channel/0029VajdZqv9xVJbRYtSFM3C"
                                             target="_blank" class="social-item"><span><i
@@ -594,16 +594,16 @@ window.addEventListener('load', function () {
                 <ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px"
                     data-ad-client="ca-pub-3986924419662120" data-ad-slot="6911924096"></ins>
 
-                <a href="https://www.newsnmf.com/nmfapps/" target="_blank" class="ad-fallback-content"
+                <a href="https://www.world91.com/world91apps/" target="_blank" class="ad-fallback-content"
                     id="myFallback">
                     <div class="dl-wrapper">
                         <div class="ad-fallback-info">
                             <div class="ad-app-icon">
-                                <img src="https://www.newsnmf.com/frontend/images/logo.png" alt="NewsNMF"
+                                <img src="https://www.world91.com/frontend/images/logo.png" alt="world91"
                                     class="--logo-sm" />
                             </div>
                             <div class="ad-text-group">
-                                <div class="ad-app-name">NMF App</div>
+                                <div class="ad-app-name">world91 App</div>
                             </div>
                         </div>
                         <div class="ad-fallback-btn">Download</div>
@@ -654,7 +654,7 @@ window.addEventListener('load', function () {
                 <i class="fas fa-home"></i>
                 <span>होम</span>
             </a>
-            <a href="{{ config('global.base_url') . 'nmfvideos' }}" class="nav-item">
+            <a href="{{ config('global.base_url') . 'world91videos' }}" class="nav-item">
                 <i class="fa-solid fa-video"></i> 
                 <span>वीडियो</span>
             </a>
@@ -700,7 +700,7 @@ window.addEventListener('load', function () {
                                 <img loading="lazy" src="{{config('global.base_url_asset')}}asset/images/kmc_logo.png" alt="">
                             </div>
                         </div>
-                        <p>NMF News is a Subsidary of Khetan Media Creation Pvt Ltd</p>
+                        <p>World 91 is a Subsidary of Khetan Media Creation Pvt Ltd</p>
                         <div class="contact_wrap">
                             <div class="contact_block">
                                 <div class="ct_left">
@@ -755,7 +755,7 @@ window.addEventListener('load', function () {
                     <div class="footer_right">
                         <h5>Download App</h5>
                         <div class="app_btn_wrap">
-                            <a href="https://play.google.com/store/apps/details?id=com.kmcliv.nmfnews"
+                            <a href="https://play.google.com/store/apps/details?id=com.kmcliv.world91news"
                                 class="playstore-button">
                                 <svg viewBox="0 0 512 512" class="_icon" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -768,7 +768,7 @@ window.addEventListener('load', function () {
                                     <span class="text-2">Google Play</span>
                                 </span>
                             </a>
-                            <a href="https://apps.apple.com/us/app/nmf-news/id6745018964" class="playstore-button">
+                            <a href="https://apps.apple.com/us/app/world91-news/id6745018964" class="playstore-button">
                                 <svg viewBox="0 0 512 512" class="_icon" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg" style="margin-right: -7px;">
                                     <path

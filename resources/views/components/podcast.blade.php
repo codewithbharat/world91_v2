@@ -53,8 +53,8 @@ $isBlog = $podcastData['isBlog'];
 $isVideo = $podcastData['isVideo'];
 
     // --- helper for YouTube ID ---
-    if (!function_exists('nmf_get_youtube_id')) {
-        function nmf_get_youtube_id($url)
+    if (!function_exists('world91_get_youtube_id')) {
+        function world91_get_youtube_id($url)
         {
             if (!$url) {
                 return null;
@@ -65,7 +65,7 @@ $isVideo = $podcastData['isVideo'];
     }
 
     // --- YouTube video ID ---
-    $videoId = $isBlog ? nmf_get_youtube_id($latestPodcast->link ?? '') : null;
+    $videoId = $isBlog ? world91_get_youtube_id($latestPodcast->link ?? '') : null;
 
 @endphp
 

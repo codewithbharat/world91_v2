@@ -239,7 +239,7 @@
                                     <div class="form-group row ">
                                         <div class=" input-field col-md-6">
                                             <input type="text" name="keyword"
-                                                value="{{ $data['blogs']->keyword ?: 'NMF News' }}" id="keyword"
+                                                value="{{ $data['blogs']->keyword ?: 'World 91' }}" id="keyword"
                                                 oninput="clearError('keyword-error')" />
                                             <label for="username">Keywords</label>
                                             @error('keyword')

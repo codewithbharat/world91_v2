@@ -5,7 +5,7 @@
     @php
         // --- Logic for Schemas ---
         $blogImage = config('global.blog_images_everywhere')($blogs ?? null);
-        $customImageUrl = config('global.base_url_asset') . 'asset/images/NMF_BreakingNews.png';
+        $customImageUrl = config('global.base_url_asset') . 'asset/images/world91_BreakingNews.png';
         $imageToUse = !empty($blogImage) ? $blogImage : $customImageUrl;
 
         // YouTube ID Extractor Logic
@@ -30,11 +30,11 @@
         ],
         "author": {
             "@type": "Person",
-            "name": {!! json_encode($author->name ?? 'NMF News') !!}
+            "name": {!! json_encode($author->name ?? 'World 91') !!}
         },
         "publisher": {
             "@type": "Organization",
-            "name": "NMF News",
+            "name": "World 91",
             "logo": {
                 "@type": "ImageObject",
                 "url": "{{ config('global.base_url_frontend') }}frontend/images/logo.png"
@@ -64,7 +64,7 @@
                             : (str_contains($blogs->link, '.mp4') ? $blogs->link : null),
             "publisher" => [
                 "@type" => "Organization",
-                "name" => "NMF News",
+                "name" => "World 91",
                 "logo" => [
                     "@type" => "ImageObject",
                     "url" => config('global.base_url_frontend') . "frontend/images/logo.png",

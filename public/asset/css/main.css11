@@ -2178,7 +2178,7 @@ body.boxed .page-wrapper .cm-container {
     transform: scale(1.05);
 }
 
-.nmf-tag {
+.world91-tag {
     font-size: 13px;
     font-weight: 500;
     color: #333;
@@ -2189,7 +2189,7 @@ body.boxed .page-wrapper .cm-container {
     cursor: default;
 }
 
-.nmfImg {
+.world91Img {
     width: 32px;
     height: auto;
     object-fit: cover;
@@ -9546,7 +9546,7 @@ li.item.new a span::before {
         }
     }
 
-    .nmf-tag {
+    .world91-tag {
         margin-bottom: 10px;
     }
 
@@ -10155,7 +10155,7 @@ li.item.new a span::before {
         bottom: -3px;
     }
 
-    .nmf-tag {
+    .world91-tag {
         margin-bottom: 8px;
     }
 

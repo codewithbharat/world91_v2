@@ -110,10 +110,10 @@
                                                     <div class="sub">
                                                         <div class="news-tabs nwstb">
                                                             <a class="newstab_title"
-                                                                href="{{ url('nmfvideos/' . $group['category']->site_url) }}">{{ $group['category']->name === 'विधानसभा चुनाव' ? 'बिहार चुनाव' : $group['category']->name }}
+                                                                href="{{ url('world91videos/' . $group['category']->site_url) }}">{{ $group['category']->name === 'विधानसभा चुनाव' ? 'बिहार चुनाव' : $group['category']->name }}
                                                             </a>
                                                             <a
-                                                                href="{{ url('nmfvideos/' . $group['category']->site_url) }}">अधिक<i
+                                                                href="{{ url('world91videos/' . $group['category']->site_url) }}">अधिक<i
                                                                     class="fa-solid fa-arrow-right"></i></a>
                                                         </div>
 

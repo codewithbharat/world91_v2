@@ -13,7 +13,7 @@
                             <img src="{{ config('global.base_url_asset') }}asset/images/kmc_logo.png" alt="">
                         </div>
                     </div>
-                    <p>NMF News is a Subsidary of Khetan Media Creation Pvt Ltd</p>
+                    <p>World 91 is a Subsidary of Khetan Media Creation Pvt Ltd</p>
                     <div class="contact_wrap">
                         <div class="contact_block">
                             <div class="ct_left">
@@ -67,7 +67,7 @@
                 <div class="footer_right">
                     <h5>Download App</h5>
                     <div class="app_btn_wrap">
-                        <a href="https://play.google.com/store/apps/details?id=com.kmcliv.nmfnews"
+                        <a href="https://play.google.com/store/apps/details?id=com.kmcliv.world91news"
                             class="playstore-button">
                             <svg viewBox="0 0 512 512" class="_icon" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +80,7 @@
                                 <span class="text-2">Google Play</span>
                             </span>
                         </a>
-                        <a href="https://apps.apple.com/us/app/nmf-news/id6745018964" class="playstore-button">
+                        <a href="https://apps.apple.com/us/app/world91-news/id6745018964" class="playstore-button">
                             <svg viewBox="0 0 512 512" class="_icon" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg" style="margin-right: -7px;">
                                 <path

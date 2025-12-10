@@ -165,7 +165,7 @@
                                         <div class="input-field col-md-6">
                                             <input placeholder="" autocomplete="off" type="text" name="keyword"
                                                 id="keyword" oninput="clearError('keyword-error')"
-                                                value="{{ old('keyword', 'NMF News') }}" />
+                                                value="{{ old('keyword', 'World 91') }}" />
                                             <label for="keyword">Keywords</label>
                                             @error('keyword')
                                                 <div class="input-group-append" id="keyword-error">

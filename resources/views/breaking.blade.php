@@ -84,10 +84,10 @@
                                                                     ?>
                     
 
-                                                                    <a href="http://www.facebook.com/sharer.php?u={{ $get_baseUrl }}breakingnews/latest-breaking-news-in-hindi-nmfnews{{$todayEng}}"
+                                                                    <a href="http://www.facebook.com/sharer.php?u={{ $get_baseUrl }}breakingnews/latest-breaking-news-in-hindi-world91news{{$todayEng}}"
                                                                         target="_blank" class="sl-item"><span><i
                                                                                 class="fa-brands fa-facebook-f"></i></span></a>
-                                                                    <a href="https://twitter.com/intent/tweet?url={{ $get_baseUrl }}breakingnews/latest-breaking-news-in-hindi-nmfnews{{$todayEng}}"
+                                                                    <a href="https://twitter.com/intent/tweet?url={{ $get_baseUrl }}breakingnews/latest-breaking-news-in-hindi-world91news{{$todayEng}}"
                                                                         target="_blank" class="sl-item"><span><i
                                                                                 class="fa-brands fa-twitter"></i></span></a>
                                                                 </div>

@@ -31,22 +31,22 @@ $nextCat = $next ? optional($next->category)->site_url ?? 'category' : '#';
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>{{ $videos[$currentIndex]->title . ' - Short Video-NMF News' ?? 'Short Video-NMF News' }}</title>
+    <title>{{ $videos[$currentIndex]->title . ' - Short Video-World 91' ?? 'Short Video-World 91' }}</title>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="video.other">
     <meta property="og:title" content="{{ $videos[$currentIndex]->title }}">
     <meta property="og:description"
-        content="{{ $videos[$currentIndex]->description ?? 'Watch this short video on NMF News' }}">
+        content="{{ $videos[$currentIndex]->description ?? 'Watch this short video on World 91' }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:image" content="{{ asset($videothumb ?? 'default-thumbnail.jpg') }}">
-    <meta property="og:site_name" content="NMF News">
+    <meta property="og:site_name" content="World 91">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ $videos[$currentIndex]->title }}">
     <meta name="twitter:description"
-        content="{{ $videos[$currentIndex]->description ?? 'Watch this short video on NMF News' }}">
+        content="{{ $videos[$currentIndex]->description ?? 'Watch this short video on World 91' }}">
     <meta name="twitter:image" content="{{ asset($videothumb ?? 'default-thumbnail.jpg') }}">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3986924419662120"
         crossorigin="anonymous"></script>

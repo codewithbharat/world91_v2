@@ -2136,7 +2136,7 @@ body.boxed .page-wrapper .cm-container {
     transform: scale(1.05);
 }
 
-.nmf-tag {
+.world91-tag {
     font-size: 13px;
     font-weight: 500;
     color: #333;
@@ -2147,7 +2147,7 @@ body.boxed .page-wrapper .cm-container {
     cursor: default;
 }
 
-.nmfImg {
+.world91Img {
     width: 32px;
     height: auto;
     object-fit: cover;
@@ -11592,7 +11592,7 @@ footer p {
         }
     }
 
-    .nmf-tag {
+    .world91-tag {
         margin-bottom: 10px;
     }
 
@@ -11695,7 +11695,7 @@ footer p {
     /* ================================================== */
     /* header */
     /* ================================================== */
-    .--nmf-logo {
+    .--world91-logo {
         width: 77px;
     }
 
@@ -12437,7 +12437,7 @@ footer p {
         bottom: -3px;
     }
 
-    .nmf-tag {
+    .world91-tag {
         margin-bottom: 8px;
     }
 

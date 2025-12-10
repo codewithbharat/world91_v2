@@ -765,7 +765,7 @@ public function liveBlogsAmp($cat_name, $name)
         'latests' => $latests, 
     ]);
 }
-    public function nmfvideos()
+    public function world91videos()
     {
 
         // Paginate categories where videos are marked for home page
@@ -800,9 +800,9 @@ public function liveBlogsAmp($cat_name, $name)
             ->take(5)
             ->get();
 
-        return view('allnmfVideos', compact('allVideos', 'categoryWiseVideos', 'paginatedCategories', 'videoAds'));
+        return view('allworld91Videos', compact('allVideos', 'categoryWiseVideos', 'paginatedCategories', 'videoAds'));
     }
-    public function nmfvideosCategory($cat_name)
+    public function world91videosCategory($cat_name)
     {
         $category = Category::where('site_url', $cat_name)->first();
 
@@ -826,7 +826,7 @@ public function liveBlogsAmp($cat_name, $name)
             return $video;
         });
 
-        return view('allnmfVideosCategory', compact('videos', 'category', 'videoCatAds'));
+        return view('allworld91VideosCategory', compact('videos', 'category', 'videoCatAds'));
     }
      public function biharphaseone()
     {

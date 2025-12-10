@@ -50,7 +50,7 @@
     },
     {
       "@type": "Organization",
-      "name": "NMF News",
+      "name": "World 91",
       "url": "{{ url('/') }}",
       "logo": {
         "@type": "ImageObject",
@@ -59,10 +59,10 @@
         "height": 60
       },
       "sameAs": [
-        "https://www.facebook.com/officialnmfnews",
-        "https://x.com/NMFNewsOfficial",
-        "https://www.youtube.com/c/NMFNews/featured",
-        "https://www.instagram.com/nmfnewsofficial"
+        "https://www.facebook.com/officialworld91news",
+        "https://x.com/world91NewsOfficial",
+        "https://www.youtube.com/c/world91News/featured",
+        "https://www.instagram.com/world91newsofficial"
       ]
     }
   ]
@@ -79,65 +79,65 @@
         $DisplayTitle = '';
         $DisplayDescription = '';
         if (str_contains($URL, 'dharma-gyan')) {
-            $DisplayTitle = 'धर्म ज्ञान: Spiritual Insights, Teachings, and Religious News | NMF News';
-            $DisplayDescription = 'NMF News पर पाएं धर्म, आध्यात्मिकता और जीवन से जुड़ी गहरी शिक्षाएँ। वेद, उपनिषद, धार्मिक अनुष्ठान, और संतों के उपदेशों के साथ आध्यात्मिक यात्रा के बारे में जानें। धर्म ज्ञान के हर पहलू पर विशेषज्ञ विश्लेषण।';
+            $DisplayTitle = 'धर्म ज्ञान: Spiritual Insights, Teachings, and Religious News | World 91';
+            $DisplayDescription = 'World 91 पर पाएं धर्म, आध्यात्मिकता और जीवन से जुड़ी गहरी शिक्षाएँ। वेद, उपनिषद, धार्मिक अनुष्ठान, और संतों के उपदेशों के साथ आध्यात्मिक यात्रा के बारे में जानें। धर्म ज्ञान के हर पहलू पर विशेषज्ञ विश्लेषण।';
         } elseif (str_contains($URL, 'entertainment')) {
-            $DisplayTitle = 'मनोरंजन समाचार: Latest Entertainment News, Movies, Celebrities & More | NMF News';
-            $DisplayDescription = 'NMF News पर पाएं ताजगी से भरपूर मनोरंजन की खबरें, फिल्म रिव्यू, सेलिब्रिटी गॉसिप, टीवी शो और म्यूजिक इंडस्ट्री की सभी अपडेट्स। मनोरंजन की दुनिया की हर प्रमुख खबर, सिर्फ NMF News पर।';
+            $DisplayTitle = 'मनोरंजन समाचार: Latest Entertainment News, Movies, Celebrities & More | World 91';
+            $DisplayDescription = 'World 91 पर पाएं ताजगी से भरपूर मनोरंजन की खबरें, फिल्म रिव्यू, सेलिब्रिटी गॉसिप, टीवी शो और म्यूजिक इंडस्ट्री की सभी अपडेट्स। मनोरंजन की दुनिया की हर प्रमुख खबर, सिर्फ World 91 पर।';
         } elseif (str_contains($URL, 'exclusive')) {
-            $DisplayTitle = 'ताज़ा खबरें, स्पेशल रिपोर्ट्स और ब्रेकिंग स्टोरीज़ | NMF News';
-            $DisplayDescription = 'NMF News पर पढ़ें एक्सक्लूसिव रिपोर्ट्स, ब्रेकिंग न्यूज़ और विशेष जांच। हर दिन की ताज़ा खबरों के साथ जानें वो ख़बरें, जो आपको कहीं और नहीं मिलेंगी। देश-दुनिया की खास खबरों के लिए जुड़ें NMF News के साथ।';
+            $DisplayTitle = 'ताज़ा खबरें, स्पेशल रिपोर्ट्स और ब्रेकिंग स्टोरीज़ | World 91';
+            $DisplayDescription = 'World 91 पर पढ़ें एक्सक्लूसिव रिपोर्ट्स, ब्रेकिंग न्यूज़ और विशेष जांच। हर दिन की ताज़ा खबरों के साथ जानें वो ख़बरें, जो आपको कहीं और नहीं मिलेंगी। देश-दुनिया की खास खबरों के लिए जुड़ें World 91 के साथ।';
         } elseif (str_contains($URL, 'world')) {
-            $DisplayTitle = 'दुनिया न्यूज़: Latest World News, Global Updates, Breaking Headlines | NMF News';
-            $DisplayDescription = 'दुनिया भर की ताज़ा खबरें, ब्रेकिंग न्यूज़ और वैश्विक घटनाएँ पढ़ें। राजनीति, समाज, व्यापार, विज्ञान, खेल और अन्य महत्वपूर्ण ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'दुनिया न्यूज़: Latest World News, Global Updates, Breaking Headlines | World 91';
+            $DisplayDescription = 'दुनिया भर की ताज़ा खबरें, ब्रेकिंग न्यूज़ और वैश्विक घटनाएँ पढ़ें। राजनीति, समाज, व्यापार, विज्ञान, खेल और अन्य महत्वपूर्ण ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'utility')) {
-            $DisplayTitle = 'Utility News: Useful Tips, Guides, Resources & Updates | NMF News';
-            $DisplayDescription = "NMF News के 'यूटिलिटी' सेक्शन में पाएं उपयोगी टिप्स, गाइड्स और संसाधन जो आपकी ज़िंदगी को आसान बनाएं। स्वास्थ्य, वित्त, टेक्नोलॉजी और अन्य महत्वपूर्ण जानकारी के लिए जुड़े रहें।";
+            $DisplayTitle = 'Utility News: Useful Tips, Guides, Resources & Updates | World 91';
+            $DisplayDescription = "World 91 के 'यूटिलिटी' सेक्शन में पाएं उपयोगी टिप्स, गाइड्स और संसाधन जो आपकी ज़िंदगी को आसान बनाएं। स्वास्थ्य, वित्त, टेक्नोलॉजी और अन्य महत्वपूर्ण जानकारी के लिए जुड़े रहें।";
         } elseif (str_contains($URL, 'technology')) {
-            $DisplayTitle = 'टेक्नोलॉजी समाचार: Latest Tech Updates, Gadgets, Innovations & Analysis | NMF News';
-            $DisplayDescription = 'NMF News पर पाएं टेक्नोलॉजी से जुड़ी ताज़ा खबरें, गैजेट्स, इनोवेशन, और डिजिटल दुनिया की प्रमुख घटनाओं का विश्लेषण। स्मार्टफोन, AI, सॉफ़्टवेयर, और नई तकनीकों के बारे में जानें हर अपडेट।';
+            $DisplayTitle = 'टेक्नोलॉजी समाचार: Latest Tech Updates, Gadgets, Innovations & Analysis | World 91';
+            $DisplayDescription = 'World 91 पर पाएं टेक्नोलॉजी से जुड़ी ताज़ा खबरें, गैजेट्स, इनोवेशन, और डिजिटल दुनिया की प्रमुख घटनाओं का विश्लेषण। स्मार्टफोन, AI, सॉफ़्टवेयर, और नई तकनीकों के बारे में जानें हर अपडेट।';
         } elseif (str_contains($URL, 'sports')) {
-            $DisplayTitle = 'खेल समाचार: ताजा खेल अपडेट्स, मैच रिजल्ट्स, विश्लेषण और ब्रेकिंग न्यूज़ | NMF News';
-            $DisplayDescription = 'NMF News पर पाएं खेल से जुड़ी ताज़ा खबरें, मैच के लाइव रिजल्ट्स, प्रमुख खेल आयोजनों का विश्लेषण और खिलाड़ियों की खबरें। क्रिकेट, फुटबॉल, बैडमिंटन और अन्य खेलों के बारे में सभी अपडेट यहाँ पाएँ।';
+            $DisplayTitle = 'खेल समाचार: ताजा खेल अपडेट्स, मैच रिजल्ट्स, विश्लेषण और ब्रेकिंग न्यूज़ | World 91';
+            $DisplayDescription = 'World 91 पर पाएं खेल से जुड़ी ताज़ा खबरें, मैच के लाइव रिजल्ट्स, प्रमुख खेल आयोजनों का विश्लेषण और खिलाड़ियों की खबरें। क्रिकेट, फुटबॉल, बैडमिंटन और अन्य खेलों के बारे में सभी अपडेट यहाँ पाएँ।';
         } elseif (str_contains($URL, 'lifestyle')) {
-            $DisplayTitle = 'लाइफस्टाइल समाचार: Health, Fashion, Wellness, Tips & Trends | NMF News';
-            $DisplayDescription = 'NMF News पर पाएं लाइफस्टाइल से जुड़ी ताज़ा खबरें, स्वास्थ्य, फैशन, फिटनेस, और वेलनेस टिप्स। जीवनशैली के नए ट्रेंड्स, शॉपिंग गाइड और मानसिक स्वास्थ्य पर विशेषज्ञ सलाह के लिए जुड़े रहें।';
+            $DisplayTitle = 'लाइफस्टाइल समाचार: Health, Fashion, Wellness, Tips & Trends | World 91';
+            $DisplayDescription = 'World 91 पर पाएं लाइफस्टाइल से जुड़ी ताज़ा खबरें, स्वास्थ्य, फैशन, फिटनेस, और वेलनेस टिप्स। जीवनशैली के नए ट्रेंड्स, शॉपिंग गाइड और मानसिक स्वास्थ्य पर विशेषज्ञ सलाह के लिए जुड़े रहें।';
         } elseif (str_contains($URL, 'podcast')) {
-            $DisplayTitle = 'पॉडकास्ट: Latest Episodes, Talks, Interviews & Discussions | NMF News';
-            $DisplayDescription = 'NMF News के पॉडकास्ट सेक्शन में पाएं ताज़ा एपिसोड्स, दिलचस्प इंटरव्यूज़ और विशेषज्ञों से की गई चर्चा। राजनीति, समाज, बिजनेस, और अन्य विषयों पर गहन बातें सिर्फ NMF News पॉडकास्ट में।';
+            $DisplayTitle = 'पॉडकास्ट: Latest Episodes, Talks, Interviews & Discussions | World 91';
+            $DisplayDescription = 'World 91 के पॉडकास्ट सेक्शन में पाएं ताज़ा एपिसोड्स, दिलचस्प इंटरव्यूज़ और विशेषज्ञों से की गई चर्चा। राजनीति, समाज, बिजनेस, और अन्य विषयों पर गहन बातें सिर्फ World 91 पॉडकास्ट में।';
         } elseif (str_contains($URL, 'state/maharashtra')) {
-            $DisplayTitle = 'महाराष्ट्र न्यूज़: Latest Maharashtra News, Breaking Headlines | NMF News';
-            $DisplayDescription = 'महाराष्ट्र से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, समाज, उद्योग और अन्य ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'महाराष्ट्र न्यूज़: Latest Maharashtra News, Breaking Headlines | World 91';
+            $DisplayDescription = 'महाराष्ट्र से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, समाज, उद्योग और अन्य ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'state/bihar')) {
-            $DisplayTitle = 'बिहार न्यूज़: Latest Bihar News, Breaking Headlines | NMF News';
-            $DisplayDescription = 'बिहार से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, अर्थव्यवस्था, संस्कृति और अन्य ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'बिहार न्यूज़: Latest Bihar News, Breaking Headlines | World 91';
+            $DisplayDescription = 'बिहार से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, अर्थव्यवस्था, संस्कृति और अन्य ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'state/uttrakhand')) {
-            $DisplayTitle = 'उत्तराखंड न्यूज़: Latest Uttarakhand News, Breaking Headlines | NMF News';
-            $DisplayDescription = 'उत्तराखंड से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, पर्यावरण, संस्कृति और अन्य ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'उत्तराखंड न्यूज़: Latest Uttarakhand News, Breaking Headlines | World 91';
+            $DisplayDescription = 'उत्तराखंड से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, पर्यावरण, संस्कृति और अन्य ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'state/new-delhi')) {
-            $DisplayTitle = 'नई दिल्ली न्यूज़: Latest New Delhi News, Breaking Headlines | NMF News';
-            $DisplayDescription = 'नई दिल्ली से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, समाज, सरकार की योजनाएं और अन्य ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'नई दिल्ली न्यूज़: Latest New Delhi News, Breaking Headlines | World 91';
+            $DisplayDescription = 'नई दिल्ली से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, समाज, सरकार की योजनाएं और अन्य ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'state/jharkhand')) {
-            $DisplayTitle = 'झारखंड न्यूज़: Latest Jharkhand News, Breaking Headlines | NMF News';
-            $DisplayDescription = 'झारखंड से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, विकास, जनजीवन और अन्य ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'झारखंड न्यूज़: Latest Jharkhand News, Breaking Headlines | World 91';
+            $DisplayDescription = 'झारखंड से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, विकास, जनजीवन और अन्य ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'state/uttar-pradesh')) {
-            $DisplayTitle = 'उत्तर प्रदेश न्यूज़: Latest Uttar Pradesh News, Breaking Headlines | NMF News';
-            $DisplayDescription = 'उत्तर प्रदेश से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, समाज, संस्कृति और अन्य ख़बरों के लिए जुड़े रहें NMF News के साथ।';
+            $DisplayTitle = 'उत्तर प्रदेश न्यूज़: Latest Uttar Pradesh News, Breaking Headlines | World 91';
+            $DisplayDescription = 'उत्तर प्रदेश से जुड़ी ताज़ा खबरें, ब्रेकिंग न्यूज़ और इन-डेप्थ एनालिसिस यहां पढ़ें। राजनीति, समाज, संस्कृति और अन्य ख़बरों के लिए जुड़े रहें World 91 के साथ।';
         } elseif (str_contains($URL, 'state=maharashtra')) {
-            $DisplayTitle = 'महाराष्ट्र विधान सभा चुनाव: Latest Updates, Results, and Analysis | NMF News';
-            $DisplayDescription = 'महाराष्ट्र विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम, राजनीति और विश्लेषण पढ़ें। जानें महाराष्ट्र के विधानसभा चुनाव के बारे में सभी अपडेट और नतीजे NMF News पर।';
+            $DisplayTitle = 'महाराष्ट्र विधान सभा चुनाव: Latest Updates, Results, and Analysis | World 91';
+            $DisplayDescription = 'महाराष्ट्र विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम, राजनीति और विश्लेषण पढ़ें। जानें महाराष्ट्र के विधानसभा चुनाव के बारे में सभी अपडेट और नतीजे World 91 पर।';
         } elseif (str_contains($URL, 'state=jharkhand')) {
-            $DisplayTitle = 'झारखंड विधान सभा चुनाव: Latest Updates, Results, and Analysis | NMF News';
-            $DisplayDescription = 'झारखंड विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम, और राजनीतिक विश्लेषण पढ़ें। झारखंड विधानसभा चुनाव के बारे में हर अपडेट और नतीजे पाएँ NMF News पर।';
+            $DisplayTitle = 'झारखंड विधान सभा चुनाव: Latest Updates, Results, and Analysis | World 91';
+            $DisplayDescription = 'झारखंड विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम, और राजनीतिक विश्लेषण पढ़ें। झारखंड विधानसभा चुनाव के बारे में हर अपडेट और नतीजे पाएँ World 91 पर।';
         } elseif (str_contains($URL, 'state=new-delhi')) {
-            $DisplayTitle = 'नई दिल्ली विधान सभा चुनाव: Latest Updates, Results, and Analysis | NMF News';
-            $DisplayDescription = 'नई दिल्ली विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम और राजनीतिक विश्लेषण पढ़ें। नई दिल्ली विधानसभा चुनाव के नतीजे और सभी महत्वपूर्ण घटनाओं की जानकारी पाएं NMF News पर।';
+            $DisplayTitle = 'नई दिल्ली विधान सभा चुनाव: Latest Updates, Results, and Analysis | World 91';
+            $DisplayDescription = 'नई दिल्ली विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम और राजनीतिक विश्लेषण पढ़ें। नई दिल्ली विधानसभा चुनाव के नतीजे और सभी महत्वपूर्ण घटनाओं की जानकारी पाएं World 91 पर।';
         } elseif (str_contains($URL, 'state=bihar')) {
-            $DisplayTitle = 'बिहार विधान सभा चुनाव: Latest Updates, Results, and Analysis | NMF News';
-            $DisplayDescription = 'बिहार विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम और विश्लेषण पढ़ें। बिहार विधानसभा चुनाव के नतीजे और सभी प्रमुख घटनाओं की जानकारी पाएं NMF News पर।';
+            $DisplayTitle = 'बिहार विधान सभा चुनाव: Latest Updates, Results, and Analysis | World 91';
+            $DisplayDescription = 'बिहार विधान सभा चुनाव से जुड़ी ताज़ा खबरें, चुनाव परिणाम और विश्लेषण पढ़ें। बिहार विधानसभा चुनाव के नतीजे और सभी प्रमुख घटनाओं की जानकारी पाएं World 91 पर।';
         } elseif ($URL == '/state-legislative-assembly-election') {
-            $DisplayTitle = 'राज्य विधान सभा चुनाव 2024: ताजा अपडेट्स और चुनावी विश्लेषण | NMF न्यूज | newsnmf.com';
-            $DisplayDescription = 'राज्य विधान सभा चुनाव 2024 से जुड़ी सभी एक्सक्लूसिव खबरें और ताजा अपडेट्स पाएं। जानें प्रमुख पार्टियों, उम्मीदवारों और चुनावी रणनीतियों का गहराई से विश्लेषण केवल NMF News – जिस पर देश करता है भरोसा। पर।';
+            $DisplayTitle = 'राज्य विधान सभा चुनाव 2024: ताजा अपडेट्स और चुनावी विश्लेषण | world91 न्यूज | world91.com';
+            $DisplayDescription = 'राज्य विधान सभा चुनाव 2024 से जुड़ी सभी एक्सक्लूसिव खबरें और ताजा अपडेट्स पाएं। जानें प्रमुख पार्टियों, उम्मीदवारों और चुनावी रणनीतियों का गहराई से विश्लेषण केवल World 91 – जिस पर देश करता है भरोसा। पर।';
         } elseif (str_contains($URL, 'breakingnews')) {
             $todayEng = date('jS F Y');
             // Get current day and month in English
@@ -152,11 +152,11 @@
             // Compose the final string
             $formattedDate = $day . ' ' . $hindiMonths[$month - 1] . ', ' . $hindiWeekdays[$weekday];
     
-            $DisplayTitle = 'NMF न्यूज - एक क्लिक में पढ़ें ' . $formattedDate . ' की अहम खबरें - ' . $todayEng . ' breaking latest news';
+            $DisplayTitle = 'world91 न्यूज - एक क्लिक में पढ़ें ' . $formattedDate . ' की अहम खबरें - ' . $todayEng . ' breaking latest news';
             $DisplayDescription = 'Stay updated with the latest breaking news for ' . $formattedDate . ' – covering top headlines, current affairs, and major developments as they unfold throughout the day.';
         } else {
-            $DisplayTitle = 'Hindi News, हिंदी समाचार, Latest News in Hindi, Breaking News, ताज़ा खबरें - NewsNMF';
-            $DisplayDescription = 'NewsNMF: हिंदी समाचार (Hindi News) website. पढ़ें ताज़ा खबरें, ब्रेकिंग न्यूज़, राजनीति, खेल, बॉलीवुड, व्यापार और देश-दुनिया की हिंदी खबरें सबसे पहले। Latest Hindi News, Hindi Samachar, Breaking News in Hindi.';
+            $DisplayTitle = 'Hindi News, हिंदी समाचार, Latest News in Hindi, Breaking News, ताज़ा खबरें - world91';
+            $DisplayDescription = 'world91: हिंदी समाचार (Hindi News) website. पढ़ें ताज़ा खबरें, ब्रेकिंग न्यूज़, राजनीति, खेल, बॉलीवुड, व्यापार और देश-दुनिया की हिंदी खबरें सबसे पहले। Latest Hindi News, Hindi Samachar, Breaking News in Hindi.';
         }
         if ($statepos > 0) {
             $statename = substr($URL, $statepos + 7);
@@ -172,8 +172,8 @@
     ?>
     <meta property="fb:app_id" content="3916260501994016" />
     @php
-    $host = request()->getHost(); // www.newsnmf.com
-    $domainOnly = explode('.', str_replace('www.', '', $host))[0]; // newsnmf
+    $host = request()->getHost(); // www.world91.com
+    $domainOnly = explode('.', str_replace('www.', '', $host))[0]; // world91
     @endphp
     <meta property="og:site_name" content="{{ ucfirst($domainOnly) }}">
     <meta property="og:title" content="<?php
@@ -195,7 +195,7 @@
     <?php
     $URL= url()->current();
     $baseBreakingNewsUrl = url('/breakingnews');
-    $customImageUrl = asset('asset/images/NMF_BreakingNews.png');
+    $customImageUrl = asset('asset/images/world91_BreakingNews.png');
    // $ff = config('global.blog_images_everywhere')($data['blog'] ?? null);
    $blog = $data['blog'] ?? null;
    $ff = cached_blog_image($blog);
@@ -212,7 +212,7 @@
     ?>" />
     <meta property="og:image:type" content="image/jpeg">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@nmfnewsofficial">
+    <meta name="twitter:site" content="@world91newsofficial">
     <meta name="twitter:url" content="{{ url()->current() }}" />
     <meta name="twitter:title" content="<?php
     if (isset($data['blog'])) {
@@ -479,7 +479,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="cm-container">
                 <div class="--header-container">
                     <div class="--header-left">
-                        <a href="/" class="--nmf-logo">
+                        <a href="/" class="--world91-logo">
                             <img src="{{ asset('/frontend/images/logo.png') }}" alt="Logo"
                                 class="--logo" />
                         </a>
@@ -529,16 +529,16 @@ document.addEventListener("DOMContentLoaded", function () {
 					</a>
                                     </div>
                                     <div class="social-wrap">
-                                        <a href="https://www.facebook.com/officialnmfnews" target="_blank"
+                                        <a href="https://www.facebook.com/officialworld91news" target="_blank"
                                             class="social-item"><span><i
                                                     class="fa-brands fa-facebook-f"></i></span></a>
-                                        <a href="https://x.com/NMFNewsOfficial" target="_blank"
+                                        <a href="https://x.com/world91NewsOfficial" target="_blank"
                                             class="social-item"><span><i class="fa-brands fa-x-twitter"></i>
                                             </span></a>
-                                        <a href="https://instagram.com/nmfnewsofficial" target="_blank"
+                                        <a href="https://instagram.com/world91newsofficial" target="_blank"
                                             class="social-item"><span><i
                                                     class="fa-brands fa-instagram"></i></span></a>
-                                        <a href="https://www.youtube.com/c/NMFNews/featured" target="_blank"
+                                        <a href="https://www.youtube.com/c/world91News/featured" target="_blank"
                                             class="social-item"><span><i class="fa-brands fa-youtube"></i></span></a>
                                         <a href="https://whatsapp.com/channel/0029VajdZqv9xVJbRYtSFM3C"
                                             target="_blank" class="social-item"><span><i
@@ -789,7 +789,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <i class="fas fa-home"></i>
                 <span>होम</span>
             </a>
-            <a href="{{ url('/nmfvideos') }}" class="nav-item">
+            <a href="{{ url('/world91videos') }}" class="nav-item">
                 <i class="fa-solid fa-video"></i> 
                 <span>वीडियो</span>
             </a>
@@ -829,7 +829,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img loading="lazy" src="{{ asset('asset/images/kmc_logo.png') }}" alt="">
                             </div>
                         </div>
-                        <p>NMF News is a Subsidary of Khetan Media Creation Pvt Ltd</p>
+                        <p>World 91 is a Subsidary of Khetan Media Creation Pvt Ltd</p>
                         <div class="contact_wrap">
                             <div class="contact_block">
                                 <div class="ct_left">
@@ -884,7 +884,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="footer_right">
                         <h5>Download App</h5>
                         <div class="app_btn_wrap">
-                            <a href="https://play.google.com/store/apps/details?id=com.kmcliv.nmfnews"
+                            <a href="https://play.google.com/store/apps/details?id=com.kmcliv.world91news"
                                 class="playstore-button">
                                 <svg viewBox="0 0 512 512" class="_icon" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -897,7 +897,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <span class="text-2">Google Play</span>
                                 </span>
                             </a>
-                            <a href="https://apps.apple.com/us/app/nmf-news/id6745018964" class="playstore-button">
+                            <a href="https://apps.apple.com/us/app/world91-news/id6745018964" class="playstore-button">
                                 <svg viewBox="0 0 512 512" class="_icon" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg" style="margin-right: -7px;">
                                     <path

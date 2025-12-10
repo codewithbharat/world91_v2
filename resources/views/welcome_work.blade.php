@@ -364,7 +364,7 @@
                             <ul class="nws_list">
                                 <li class="nwsItem">
                                     <a href="#" class="nwsImg"><img
-                                            src="https://www.newsnmf.com/file/New_Project1724556901.jpg" alt=""></a>
+                                            src="https://www.world91.com/file/New_Project1724556901.jpg" alt=""></a>
                                     <a class="nwsTittle" href="#">
                                         प्रभु कृष्ण के बाल रूप लड्डू गोपाल को घर में लाने के नियम क्या हैं ? राजपुरोहित मधुर
                                         जी
@@ -372,21 +372,21 @@
                                 </li>
                                 <li class="nwsItem">
                                     <a href="#" class="nwsImg"><img
-                                            src="https://www.newsnmf.com/file/ishan_bcci1724483483.png" alt=""></a>
+                                            src="https://www.world91.com/file/ishan_bcci1724483483.png" alt=""></a>
                                     <a class="nwsTittle" href="#">
                                         Champions Trophy 2025 से PAK के खिलाफ साजिश का हुआ पर्दाफाश ।
                                     </a>
                                 </li>
                                 <li class="nwsItem">
                                     <a href="#" class="nwsImg"><img
-                                            src="	https://www.newsnmf.com/file/karnimata1716888917.jpg" alt=""></a>
+                                            src="	https://www.world91.com/file/karnimata1716888917.jpg" alt=""></a>
                                     <a class="nwsTittle" href="#">
                                         Johnny Lever: पेट पालने के लिए बेचे ‘पेन’, सड़कों पर किया ‘डांस’ और फिर कैसे बन गए
                                     </a>
                                 </li>
                                 <li class="nwsItem">
                                     <a href="#" class="nwsImg"><img
-                                            src="	https://www.newsnmf.com/file/dhari_devi1716292049.jpg" alt=""></a>
+                                            src="	https://www.world91.com/file/dhari_devi1716292049.jpg" alt=""></a>
                                     <a class="nwsTittle" href="#">
                                         29 March को सूर्य ग्रहण में Shani किनका खेल बिगाड़ेंगे, किनकी जिद्दी किस्मत चमकाएंगे
                                         ?
@@ -394,7 +394,7 @@
                                 </li>
                                 <li class="nwsItem">
                                     <a href="#" class="nwsImg"><img
-                                            src="	https://www.newsnmf.com/file/jinha_house1742407242.jpg"
+                                            src="	https://www.world91.com/file/jinha_house1742407242.jpg"
                                             alt=""></a>
                                     <a class="nwsTittle" href="#">
                                         मुंबई का जिन्ना हाउस, एक बंगला जिसने बदल दिया था भारत का नक्शा
@@ -469,7 +469,7 @@
                                            </div>
                                         </div>
                                         <div class="post-holder">
-                                            <div class="nmf-tag"> <img class="nmfImg" loading="lazy" src="{{ asset('asset/images/logo.png') }}" alt="NMF logo"> NMF News</div>
+                                            <div class="world91-tag"> <img class="world91Img" loading="lazy" src="{{ asset('asset/images/logo.png') }}" alt="world91 logo"> World 91</div>
                                             <div class="post_title">
                                                 <a href="{{ $blogUrl }}">
                                                     @if ($blog->link != '')
@@ -484,7 +484,7 @@
                                                     @if ($blog->author)
                                                         <li>
                                                             <a href="{{ $authorUrl }}">
-                                                                <i class="fa fa-user" aria-hidden="true">&nbsp;&nbsp;{{ optional($blog->author)->name ?? 'NMF News' }}</i>
+                                                                <i class="fa fa-user" aria-hidden="true">&nbsp;&nbsp;{{ optional($blog->author)->name ?? 'World 91' }}</i>
                                                             </a>
                                                         </li>
                                                     @endif
@@ -582,7 +582,7 @@
                     </div>
                     <div class="ad-section">
                         <!-- HeaderResponsive_728 -->
-                        <!-- NMF_webnew_horz_unit1 -->
+                        <!-- world91_webnew_horz_unit1 -->
                         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3986924419662120"
                             data-ad-slot="6597015781" data-ad-format="auto" data-full-width-responsive="true"></ins>
                         <script>
@@ -635,7 +635,7 @@
                 </div>
                 <div class="ad-section">
                     <!-- HeaderResponsive_728 -->
-                    <!-- NMF_webnew_horz_unit2 -->
+                    <!-- world91_webnew_horz_unit2 -->
                     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3986924419662120"
                         data-ad-slot="2615238860" data-ad-format="auto" data-full-width-responsive="true"></ins>
                     <script>
@@ -690,7 +690,7 @@
                                         <div class="adtxt">Advertisement
                                         </div>
                                         <div class="ad-section">
-                                            <!-- NMF_webnew_horz_sm_unit2 -->
+                                            <!-- world91_webnew_horz_sm_unit2 -->
                                             <ins class="adsbygoogle" style="display:block"
                                                 data-ad-client="ca-pub-3986924419662120" data-ad-slot="4278808355"
                                                 data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -731,7 +731,7 @@
                                         Advertisement
                                     </div>
                                     <div class="ad-section">
-                                        <!--  NMF_webnew_horz_sm_unit1 -->
+                                        <!--  world91_webnew_horz_sm_unit1 -->
                                         <ins class="adsbygoogle" style="display:block"
                                             data-ad-client="ca-pub-3986924419662120" data-ad-slot="2657770775"
                                             data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -760,7 +760,7 @@
                                     Advertisement
                                 </div>
                                 <div class="ad-section">
-                                    <!-- NMF_webnew_side_unit2 -->
+                                    <!-- world91_webnew_side_unit2 -->
                                     <ins class="adsbygoogle" style="display:block"
                                         data-ad-client="ca-pub-3986924419662120" data-ad-slot="6405444098"
                                         data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -863,7 +863,7 @@
                                     Advertisement
                                 </div>
                                 <div class="ad-section">
-                                    <!-- NMF_webnew_side_unit3 need to get the slot this is duplicate slot -->
+                                    <!-- world91_webnew_side_unit3 need to get the slot this is duplicate slot -->
                                     <ins class="adsbygoogle" style="display:block"
                                         data-ad-client="ca-pub-3986924419662120" data-ad-slot="6405444098"
                                         data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -904,7 +904,7 @@
                     Advertisement
                 </div>
                 <div class="ad-section">
-                    <!-- NMF_webnew_horz_unit3 -->
+                    <!-- world91_webnew_horz_unit3 -->
                     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3986924419662120"
                         data-ad-slot="9703391391" data-ad-format="auto" data-full-width-responsive="true"></ins>
                     <script>

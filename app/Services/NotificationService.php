@@ -26,7 +26,7 @@ class NotificationService
             $imagefile = File::where("id", $request->thumb_images)->first();
         }
        //NL1041:06Oct2025:Commented and added from config
-       // $baseUrl = 'https://www.newsnmf.com/';
+       // $baseUrl = 'https://www.world91.com/';
        $baseUrl =  config('global.base_url');
       
         $liveimagepath = null;
@@ -57,7 +57,7 @@ class NotificationService
             $notificationTitle = $request->input('name');
         }
 
-        $serviceAccountPath = base_path('nmf-news-app-a2eb4fb2b37d.json');
+        $serviceAccountPath = base_path('world91-news-app-a2eb4fb2b37d.json');
 
         $client = new Client();
         $client->setAuthConfig($serviceAccountPath);
@@ -102,8 +102,8 @@ class NotificationService
       $payload = [
             'message' => [
                 //NL1041:06Oct2025:Commented topic added from condition
-                //'topic' => 'nmf-news-app-stagging-v2',
-                'condition' => "'nmf-news-app' in topics || '" . $categoryTopic . "' in topics",
+                //'topic' => 'world91-news-app-stagging-v2',
+                'condition' => "'world91-news-app' in topics || '" . $categoryTopic . "' in topics",
                 'data' => [
                     'id' => $blogId,
                     'type' => $type,
@@ -141,7 +141,7 @@ class NotificationService
     }
       public function sendFCMNotification($accessToken, $payload)
     {
-        $url = 'https://fcm.googleapis.com/v1/projects/nmf-news-app/messages:send';  // Replace with your Firebase project ID
+        $url = 'https://fcm.googleapis.com/v1/projects/world91-news-app/messages:send';  // Replace with your Firebase project ID
 
         // Send the request to Firebase Cloud Messaging API
         $ch = curl_init();

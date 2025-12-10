@@ -23,7 +23,7 @@ if (! function_exists('cached_helper')) {
 // Actual helpers
 if (! function_exists('blog_images_everywhere')) {
     function blog_images_everywhere($blog) {
-        if (!$blog) return 'nmf-home.jpg';
+        if (!$blog) return 'world91-home.jpg';
 
         $blog_file = !empty($blog->image_ids) && empty($blog->link)
             ? File::find($blog->image_ids)
@@ -70,7 +70,7 @@ if (! function_exists('blog_video_gifs_everywhere')) {
 if (! function_exists('cached_video_thumb')) {
     function cached_video_thumb($video, $seconds = 3600) {
         if (! $video) {
-            return config('global.base_url_image').'nmf-home.jpg';
+            return config('global.base_url_image').'world91-home.jpg';
         }
 
         return Cache::remember("video_thumb_{$video->id}", $seconds, function () use ($video) {
@@ -83,7 +83,7 @@ if (! function_exists('cached_blog_image')) {
     function cached_blog_image($blog, $seconds = 3600)
     {
         if (! $blog) {
-            return config('global.base_url_image').'nmf-home.jpg';
+            return config('global.base_url_image').'world91-home.jpg';
         }
 
         return Cache::remember("blog_image_{$blog->id}", $seconds, function () use ($blog) {
@@ -95,10 +95,10 @@ if (! function_exists('cached_blog_image')) {
 
 if (! function_exists('webstory_image_everywhere')) {
     function webstory_image_everywhere($webStory) {
-        if (! $webStory) return config('global.base_url_image').'nmf-home.jpg';
+        if (! $webStory) return config('global.base_url_image').'world91-home.jpg';
 
         $story_file = optional($webStory->webStoryFiles->first());
-        if (! $story_file) return config('global.base_url_image').'nmf-home.jpg';
+        if (! $story_file) return config('global.base_url_image').'world91-home.jpg';
 
         $story_file_name = $story_file->filepath;
         $baseUrl = config('global.base_url_web_stories');
@@ -109,7 +109,7 @@ if (! function_exists('webstory_image_everywhere')) {
             return $baseUrl . $story_file_path . '/' . $story_file->filename;
         }
 
-        return config('global.base_url_image').'nmf-home.jpg';
+        return config('global.base_url_image').'world91-home.jpg';
     }
 }
 
@@ -117,7 +117,7 @@ if (! function_exists('cached_webstory_image')) {
     function cached_webstory_image($webStory, $seconds = 3600)
     {
         if (! $webStory) {
-            return config('global.base_url_image').'nmf-home.jpg';
+            return config('global.base_url_image').'world91-home.jpg';
         }
 
         return Cache::remember("webstory_image_{$webStory->id}", $seconds, function () use ($webStory) {

@@ -58,7 +58,7 @@
 
                                         <div class="input-field col-md-6">
                                             <input autocomplete="off" type="text" name="keywords" placeholder=""
-                                               value="{{ old('keywords', 'NMF News') }}" id="keywords"
+                                               value="{{ old('keywords', 'World 91') }}" id="keywords"
                                                 oninput="VideoFormUtils.clearError('keywords-error')" />
                                             <label for="keywords">Keywords</label>
                                             @error('keywords')

@@ -89,7 +89,7 @@
                                                                             @if (!empty($imageUrl)) src="{{ asset($imageUrl) }}" @endif
                                                                             alt="{{ $blog->name }}">
                                                                         {{-- <img class="hover-gif"
-                                                                        src="https://www.nmfnewsonline.com/file/video_gifs/2025/03/td217432028.gif"
+                                                                        src="https://www.world91newsonline.com/file/video_gifs/2025/03/td217432028.gif"
                                                                         alt="GIF Animation"> --}}
                                                                     </a>
                                                                     <a href="{{ $blogUrl }}" class="play-btn">
@@ -143,7 +143,7 @@
                                                                                 @if (!empty($imageUrl)) src="{{ asset($imageUrl) }}" @endif
                                                                                 alt="{{ $blog->name }}">
                                                                             {{-- <img class="hover-gif"
-                                                                                src="https://www.nmfnewsonline.com/file/video_gifs/2025/03/td217432028.gif"
+                                                                                src="https://www.world91newsonline.com/file/video_gifs/2025/03/td217432028.gif"
                                                                                 alt="GIF Animation"> --}}
                                                                         </a>
                                                                         <a href="{{ $blogUrl }}" class="play-btn">

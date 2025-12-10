@@ -630,9 +630,9 @@
            * Registers ChartDataLabels plugin if not already registered.
            */
           function registerChartPlugins() {
-              if (window.Chart && window.ChartDataLabels && !Chart._nmfDataLabelsRegistered) {
+              if (window.Chart && window.ChartDataLabels && !Chart._world91DataLabelsRegistered) {
                   Chart.register(ChartDataLabels);
-                  Chart._nmfDataLabelsRegistered = true;
+                  Chart._world91DataLabelsRegistered = true;
               }
           }
 

@@ -116,9 +116,9 @@
     document.addEventListener("DOMContentLoaded", function() {
 
         // --- 1. REGISTER CHART PLUGIN (Run once) ---
-        if (window.Chart && window.ChartDataLabels && !Chart._nmfDataLabelsRegistered) {
+        if (window.Chart && window.ChartDataLabels && !Chart._world91DataLabelsRegistered) {
             Chart.register(ChartDataLabels);
-            Chart._nmfDataLabelsRegistered = true;
+            Chart._world91DataLabelsRegistered = true;
         }
 
         // --- 2. FUNCTION TO CREATE CHART ---

@@ -16,7 +16,7 @@
 
             <news:news>
                 <news:publication>
-                    <news:name><![CDATA[NMF News]]></news:name>
+                    <news:name><![CDATA[World 91]]></news:name>
                     <news:language>hi</news:language>
                 </news:publication>
                 <news:publication_date>{{ \Carbon\Carbon::parse($blog->created_at)->toAtomString() }}</news:publication_date>

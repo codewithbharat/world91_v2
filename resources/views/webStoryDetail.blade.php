@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ $story->name }} - NMFNews</title>
+    <title>{{ $story->name }} - world91News</title>
     <link rel="canonical" href="{{ url()->current() }}">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <link rel="icon" href="https://www.newsnmf.com/frontend/images/logo.png" type="image/x-icon">
+    <link rel="icon" href="https://www.world91.com/frontend/images/logo.png" type="image/x-icon">
 
     <style amp-boilerplate>
         body {
@@ -87,7 +87,7 @@
    
 
 @php
-    $get_baseUrl = config('global.base_url_web_stories'); // should be https://www.newsnmf.com
+    $get_baseUrl = config('global.base_url_web_stories'); // should be https://www.world91.com
     $filePath = $webstories[0]->filepath ?? '';
 
     // Remove everything before '/file'
@@ -101,7 +101,7 @@
         ? rtrim($get_baseUrl, '/') . $relativePath . '/' . $webstories[0]->filename
         : '';
 
-    //$poster_image = $image ?: 'https://www.newsnmf.com/frontend/images/logo.png';
+    //$poster_image = $image ?: 'https://www.world91.com/frontend/images/logo.png';
     $poster_image = $image ?: config('global.base_url_frontend') . 'frontend/images/logo.png';
 
 
@@ -312,7 +312,7 @@
 </head>
 
 <body>
-    <amp-story standalone title="{{ $story->name }}" publisher="NMFNews"
+    <amp-story standalone title="{{ $story->name }}" publisher="world91News"
         publisher-logo-src="{{config('global.base_url_frontend')}}frontend/images/logo.png" poster-portrait-src="{{ $poster_image }}"
         poster-square-src="{{ $poster_image }}" poster-landscape-src="{{ $poster_image }}">
 
@@ -357,7 +357,7 @@
 
                 <amp-story-grid-layer template="vertical" class="story-bottom-gradient">
                     <amp-img class="logo" src="{{config('global.base_url_frontend')}}frontend/images/logo.png" width="50" height="50"
-                        layout="fixed" alt="NMFNews Logo">
+                        layout="fixed" alt="world91News Logo">
                     </amp-img>
                     <div class="story-title">
                         {{ $stories->description }}
@@ -372,20 +372,20 @@
         <!-- Promo Page -->
         {{-- <amp-story-page id="promo-page" auto-advance-after="7s">
             <amp-story-grid-layer template="fill">
-                <amp-img src="{{config('global.base_url_web_stories')}}file/webstories/nmfAd.png" width="720" height="1280"
-                    layout="responsive" alt="Download NMFNews App" class="zoom-animation">
+                <amp-img src="{{config('global.base_url_web_stories')}}file/webstories/world91Ad.png" width="720" height="1280"
+                    layout="responsive" alt="Download world91News App" class="zoom-animation">
                 </amp-img>
             </amp-story-grid-layer>
 
             <amp-story-grid-layer template="vertical" class="story-bottom-gradient">
                 <amp-img class="logo" src="{{config('global.base_url_asset')}}asset/images/logo.png" width="50" height="50"
-                    layout="fixed" alt="NMFNews Logo">
+                    layout="fixed" alt="world91News Logo">
                 </amp-img>
             </amp-story-grid-layer>
 
             <amp-story-page-outlink layout="nodisplay">
                 <a class="read-more-button"
-                    href="https://play.google.com/store/apps/details?id=com.kmcliv.nmfnews&pli=1">
+                    href="https://play.google.com/store/apps/details?id=com.kmcliv.world91news&pli=1">
                     Download App
                 </a>
             </amp-story-page-outlink>
@@ -417,7 +417,7 @@
                                 </a>
                                 {{-- <a href="{{ $storyUrl }}" class="story-box">
                                     <amp-img
-                                        src="https://www.newsnmf.com/file/webstories/2025/08/1_Medium1756448794.jpeg"
+                                        src="https://www.world91.com/file/webstories/2025/08/1_Medium1756448794.jpeg"
                                         width="360" height="640" layout="responsive"
                                         alt="Next Story Image {{ $index + 1 }}" class="grid-image"></amp-img>
                                     <div class="next-story-title">{{ $item['story']->name }}</div>
@@ -425,7 +425,7 @@
                             @endif
                         @endforeach
                     </div>
-                   <!--  <a href="https://www.newsnmf.com/nmfapps/" class="dwnld-button">
+                   <!--  <a href="https://www.world91.com/world91apps/" class="dwnld-button">
                         <svg viewBox="0 0 256 256" height="20" width="25" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M74.34 85.66a8 8 0 0 1 11.32-11.32L120 108.69V24a8 8 0 0 1 16 0v84.69l34.34-34.35a8 8 0 0 1 11.32 11.32l-48 48a8 8 0 0 1-11.32 0ZM240 136v64a16 16 0 0 1-16 16H32a16 16 0 0 1-16-16v-64a16 16 0 0 1 16-16h52.4a4 4 0 0 1 2.83 1.17L111 145a24 24 0 0 0 34 0l23.8-23.8a4 4 0 0 1 2.8-1.2H224a16 16 0 0 1 16 16m-40 32a12 12 0 1 0-12 12a12 12 0 0 0 12-12"
@@ -437,7 +437,7 @@
                    <amp-story-page-outlink layout="nodisplay"
   cta-text="Download App"
   cta-accent-color="#d90000">
-  <a href="https://www.newsnmf.com/nmfapps/" class="dwnld-button">Download App</a>
+  <a href="https://www.world91.com/world91apps/" class="dwnld-button">Download App</a>
 </amp-story-page-outlink>
 
 

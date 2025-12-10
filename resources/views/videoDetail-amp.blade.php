@@ -760,13 +760,13 @@
             border: none;
         }
 
-        .--nmf-logo-amp {
+        .--world91-logo-amp {
             width: 44px;
             height: 44px;
             overflow: hidden;
         }
 
-        .--nmf-logo-amp img {
+        .--world91-logo-amp img {
             width: 100%;
             height: auto;
             object-fit: cover;
@@ -1712,7 +1712,7 @@
                         <span>Created By:</span>
                         <a class="l1"
                             href="{{ url('/author/' . str_replace(' ', '_', $video->author->url_name ?? '-')) }}">
-                            {{ $video->author->name ?? 'NMF News' }}
+                            {{ $video->author->name ?? 'World 91' }}
                         </a>
                     </div>
 
@@ -1739,7 +1739,7 @@
                 <div class="at_right">
                     @php
                         $videoUrl =
-                            'https://www.newsnmf.com/video/' .
+                            'https://www.world91.com/video/' .
                             ($video->category->site_url ?? '-') .
                             '/' .
                             $video->site_url;

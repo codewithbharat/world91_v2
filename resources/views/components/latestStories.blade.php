@@ -43,7 +43,7 @@ $liveBlogs = Cache::remember('breaking_news', now()->addHour(), function () {
                     <div class="js_left"></div>
                     <div class="js_right">
                         <p>{{ $blogTime }}</p>
-                        <a href="{{ url('/breakingnews/latest-breaking-news-in-hindi-nmfnews-') }}{{ $todayEng }}">
+                        <a href="{{ url('/breakingnews/latest-breaking-news-in-hindi-world91news-') }}{{ $todayEng }}">
                             {{ isset($blog->short_title) && $blog->short_title ? $blog->short_title : $blog->name }}
                         </a>
                     </div>

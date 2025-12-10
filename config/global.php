@@ -492,17 +492,17 @@ $html = preg_replace_callback(
     },
 
     
-    'base_url_image' => 'https://www.newsnmf.com/',
-    'base_url_web_stories' => 'https://www.newsnmf.com/',
-    'base_url_short_videos' => 'https://www.newsnmf.com/',
-    'base_url_videos' => 'https://www.newsnmf.com/',
-    'base_url_big_event' => 'https://www.newsnmf.com/',
+    'base_url_image' => 'https://www.world91.com/',
+    'base_url_web_stories' => 'https://www.world91.com/',
+    'base_url_short_videos' => 'https://www.world91.com/',
+    'base_url_videos' => 'https://www.world91.com/',
+    'base_url_big_event' => 'https://www.world91.com/',
 
      /* NL1031:20Sept:2025:Added:base path for asset and frontend */
 
-    'base_url_asset' => 'http://nmf.test/',
-    'base_url_frontend' => 'http://nmf.test/',
-    'base_url' => 'http://nmf.test/',
+    'base_url_asset' => 'http://world91.test/',
+    'base_url_frontend' => 'http://world91.test/',
+    'base_url' => 'http://world91.test/',
 
 
      /* NL1025:15Sept:2025:Added:Google Tag Manager */

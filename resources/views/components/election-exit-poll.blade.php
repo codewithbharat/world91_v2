@@ -158,9 +158,9 @@ $status = HomeSection::where('title', 'ElectionLiveSection')->value('status') ??
             });
 
             // ---------------- SEMI-CIRCLE CHART FUNCTION ----------------
-            if (window.Chart && window.ChartDataLabels && !Chart._nmfDataLabelsRegistered) {
+            if (window.Chart && window.ChartDataLabels && !Chart._world91DataLabelsRegistered) {
                 Chart.register(ChartDataLabels);
-                Chart._nmfDataLabelsRegistered = true;
+                Chart._world91DataLabelsRegistered = true;
             }
 
             function createSemiCircleChart(canvasId, results, options = {}) {
